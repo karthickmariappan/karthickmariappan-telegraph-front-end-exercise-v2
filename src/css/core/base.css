@@ -1,0 +1,20 @@
+/**
+Adding css to set the container for comments
+*/
+.homeContainer{
+	display: block;
+	height: auto;
+	width: auto;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+@media (min-width: 992px) {
+	.homeContainer{
+        display: block;
+        height: auto;
+        min-width: 992px;
+        padding-left: 10%;
+        padding-right: 20%;
+    }
+}

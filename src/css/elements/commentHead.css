@@ -1,0 +1,44 @@
+.comment-head{
+    display: flex;
+    min-height: 80px;
+    align-items: center;
+}
+
+.comment-icon{
+    height: 20px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.comments-count{
+    flex: 2;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.sort{
+    display: inline-block;
+    font-size: 1em;
+    margin-right: 10px;
+}
+
+.comment-head-button{
+    height: 40px;
+    width: 95px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border-color: black;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border: solid 2px;
+    box-shadow: 0 5px #999;
+}
+
+.comment-head-button:active{
+    box-shadow: 0 2px #666;
+    transform: translateY(1px);
+}
